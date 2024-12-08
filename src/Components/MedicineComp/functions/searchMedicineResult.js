@@ -30,7 +30,7 @@ const SearchMedicineResult = ({ props }) => {
     const switchState = switchStates[index];
 
     const dataToSend = {
-      undefined,
+      userId: undefined,
       item_sn: med.ITEM_SEQ,
       drug_name: med.ITEM_NAME,
       comp_name: med.ENTP_NAME,
