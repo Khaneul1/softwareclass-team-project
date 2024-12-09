@@ -52,3 +52,23 @@
 .add-medication-input button:hover {
   background-color: #bae7ae;
 }
+
+button.get-back-btn {
+  border: none;
+  border-radius: 1rem;
+  width: 4.5rem;
+  font-size: 0.8rem;
+  height: 1.8rem;
+  color: #7a7a7a;
+  font-weight: bold;
+  background-color: #dadada;
+  margin: 0.5rem;
+}
+
+button.medicine-save-btn {
+  border: 1px solid #aaa;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}

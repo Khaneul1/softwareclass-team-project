@@ -79,7 +79,11 @@ const SearchMedicineResult = ({ props }) => {
                   uncheckedIcon={false}
                 />
                 <div>
-                  <button onClick={() => handleSave(index)}>추가하기</button>
+                  <button
+                    className="medicine-save-btn"
+                    onClick={() => handleSave(index)}>
+                    추가하기
+                  </button>
                 </div>
               </div>
             </div>

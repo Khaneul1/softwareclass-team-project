@@ -157,6 +157,7 @@ const SearchMedicine = () => {
       {items ? <SearchMedicineResult props={items} /> : "Nothing to display"}
 
       <button
+        className="get-back-btn"
         onClick={() => {
           navigate("/med/mypage");
         }}>

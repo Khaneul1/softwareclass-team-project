@@ -19,36 +19,58 @@ const TakeMedicine = () => {
   const [medications, setMedications] = useState(
     [
       {
-        drug_name: "보령아스트릭스캡슐100밀리그람(아스피린)",
-        comp_name: "(주)보령",
-        type: "일반의약품",
-        class_name: "기타의 순환계용약",
+        drug_name: "코데날정",
+        comp_name: "삼아제약(주)",
+        type: "전문의약품",
+        class_name: "진해거담제",
         item_image:
-          "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/154599017940000101",
-        al_b: 1, // 아침
-        al_l: 1, // 점심
-        al_d: 1, // 저녁
-      },
-      {
-        drug_name: "린피스정(아스피린)",
-        comp_name: "(주)씨티씨바이오",
-        type: "일반의약품",
-        class_name: "기타의 순환계용약",
-        item_image:
-          "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/147426438997500129",
+          "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/1O1A3H02k0k",
         al_b: 0,
         al_l: 0,
         al_d: 1,
       },
       {
-        drug_name: "텔미칸플러스정40/12.5밀리그램",
-        comp_name: "제일약품(주)",
-        type: "전문의약품",
-        class_name: "혈압강하제",
+        drug_name: "세토펜8시간이알서방정(아세트아미노펜)",
+        comp_name: "삼아제약(주)",
+        type: "일반의약품",
+        class_name: "해열.진통.소염제",
         item_image:
-          "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/147426658237900107",
-        al_b: 0,
+          "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/1Oikd3yeZ51",
+        al_b: 1,
         al_l: 0,
+        al_d: 1,
+      },
+      {
+        drug_name: "경보세프포독심프록세틸정(수출명:DAEZIM Tab.)",
+        comp_name: "(주)경보제약",
+        type: "전문의약품",
+        class_name: "주로 그람양성, 음성균에 작용하는 것",
+        item_image:
+          "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/147428043395900024",
+        al_b: 1,
+        al_l: 1,
+        al_d: 1,
+      },
+      {
+        drug_name: "베아파모정10밀리그램(파모티딘)",
+        comp_name: "대웅바이오(주)",
+        type: "일반의약품",
+        class_name: "소화성궤양용제",
+        item_image:
+          "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/1NVEnjhkQ4O",
+        al_b: 0,
+        al_l: 1,
+        al_d: 0,
+      },
+      {
+        drug_name: "펠프스정(펠루비프로펜)",
+        comp_name: "영진약품(주)",
+        type: "전문의약품",
+        class_name: "해열.진통.소염제",
+        item_image:
+          "https://nedrug.mfds.go.kr/pbp/cmn/itemImageDownload/1NeFqpW1h2g",
+        al_b: 1,
+        al_l: 1,
         al_d: 1,
       },
     ]
@@ -62,7 +84,7 @@ const TakeMedicine = () => {
   };
 
   const handelRemoveMedication = () => {
-    // Edit으로 수정
+    // Edit으로 수정 - 미완
   };
 
   const filteredMedications = medications.filter((medication) => {

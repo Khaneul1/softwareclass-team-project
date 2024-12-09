@@ -1,0 +1,37 @@
+.check-current-progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-current-progress h2 {
+  margin-bottom: -1rem;
+}
+
+.user-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.stat-item {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 7rem;
+  height: 4rem;
+  /* margin-bottom: 1rem; */
+  border-radius: 0.8rem;
+  padding: 1rem;
+}
+
+.stat-item span {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #7a7a7a;
+}
+
+.stat-item p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-bottom: 0rem;
+}
