@@ -5,7 +5,12 @@
   align-items: center;
   text-align: center;
   /*padding-bottom: 5px;*/
-  border: 2px solid #aaa;
+  /* border: 1px solid #aaa; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  border-radius: 0.8rem;
+  padding: 1rem;
+  width: 80%;
 }
 
 .add-medicine-form h2 {
@@ -17,12 +22,13 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 0.5rem;
+  gap: 1rem;
 }
 
 .add-medication-input input {
   border: none;
-  border-bottom: 1px solid black;
-  width: 15rem;
+  border-bottom: 1px solid #5e5e5e;
+  width: 12rem;
   height: 2rem;
   text-align: center;
 }
@@ -37,13 +43,14 @@
 }
 
 .add-medication-input button {
-  background-color: #ddd;
+  background-color: #86b07d;
   font-weight: bold;
-  color: black;
+  color: white;
+  font-weight: bold;
   display: block;
   margin-left: auto;
   border: none;
-  /*border-radius: 0.4rem;*/
+  border-radius: 0.5rem;
   padding: 0.3rem;
   width: 4rem;
   cursor: pointer;
@@ -67,6 +74,7 @@ button.get-back-btn {
 
 button.medicine-save-btn {
   border: 1px solid #aaa;
+  background: none;
   padding: 0.3rem;
   margin: 0.3rem;
   font-size: 0.8rem;

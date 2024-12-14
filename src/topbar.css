@@ -6,10 +6,13 @@
   text-align: center;
   color: white;
   font-weight: bold;
-  background: linear-gradient(#bae7ae, #86b07d);
-  /*background-color: #F865B8;*/
+  /* background: linear-gradient(#bae7ae, #86b07d); */
+  background-color: #86b07d;
   border-radius: 0 0 0.5rem 0.5rem;
   padding: 0.4rem;
+  height: 2.4rem;
+  width: 96.5%;
+  position: fixed;
 }
 
 .top-bar a {

@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   margin: 0.2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   gap: 2rem;
   align-items: center;
   text-align: center;
@@ -15,12 +17,22 @@
   text-decoration: underline #7a7a7a;
 }
 
+.medicine-list img,
+.medicine-list p {
+  flex: 6;
+}
+
+.medicine-list img {
+  border-radius: 0.8rem;
+}
+
 .medicine-details-btn {
+  flex: 3;
   border: none;
-  border-radius: 1rem;
-  width: 4.5rem;
+  border-radius: 0.8rem;
+  width: 7rem;
   font-size: 0.8rem;
-  height: 1.8rem;
+  height: 1.6rem;
   color: #7a7a7a;
   font-weight: bold;
   background-color: #dadada;

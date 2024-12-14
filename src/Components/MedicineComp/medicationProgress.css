@@ -1,19 +1,20 @@
 .medication-container {
   border-radius: 0.8rem;
   margin: 1rem 0.5rem 0.5rem;
-  padding: 0.9rem;
-  padding-bottom: 0.4rem;
+  padding: 1.2rem;
   height: 11rem;
   width: 80%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.medication-container h3 {
-  color: #7a7a7a;
-  margin: 0 0 1rem;
+.medication-container h3 a {
+  text-decoration-line: none;
+  font-weight: bold;
+  color: rgb(65, 80, 63);
 }
 
 .medication-container p {
+  color: rgb(118, 139, 94);
   font-weight: 600;
   font-size: 1.1rem;
   padding-bottom: 0rem;
@@ -21,14 +22,14 @@
 }
 
 .medication-container ul {
-  list-style-type: none;
   padding: 0;
+  margin-left: 1.1rem;
 }
 
 .medication-container li {
   margin: 0;
   font-size: 0.9rem;
-  color: #7a7a7a;
+  color: rgb(65, 80, 63);
 }
 
 .progress-container {

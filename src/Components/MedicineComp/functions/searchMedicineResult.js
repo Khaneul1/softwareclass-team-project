@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Switch from "react-switch";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import Switch from 'react-switch';
+import { useNavigate } from 'react-router-dom';
 
 const SearchMedicineResult = ({ props }) => {
   const navigate = useNavigate();
@@ -46,7 +46,7 @@ const SearchMedicineResult = ({ props }) => {
   };
 
   return (
-    <>
+    <div>
       {props.length > 0
         ? props.map((med, index) => (
             <div className="medicine-list" key={index}>
@@ -56,7 +56,7 @@ const SearchMedicineResult = ({ props }) => {
                   {med.ITEM_NAME} <br /> {med.ENTP_NAME}
                 </p>
                 <Switch
-                  onChange={() => handleSwitchChange(index, "al_b")}
+                  onChange={() => handleSwitchChange(index, 'al_b')}
                   checked={switchStates[index]?.al_b || false}
                   onColor="#408dff"
                   offColor="#b0cdff"
@@ -64,7 +64,7 @@ const SearchMedicineResult = ({ props }) => {
                 />
                 &nbsp;
                 <Switch
-                  onChange={() => handleSwitchChange(index, "al_l")}
+                  onChange={() => handleSwitchChange(index, 'al_l')}
                   checked={switchStates[index]?.al_l || false}
                   onColor="#FFA500"
                   offColor="#FFE4B5"
@@ -72,7 +72,7 @@ const SearchMedicineResult = ({ props }) => {
                 />
                 &nbsp;
                 <Switch
-                  onChange={() => handleSwitchChange(index, "al_d")}
+                  onChange={() => handleSwitchChange(index, 'al_d')}
                   checked={switchStates[index]?.al_d || false}
                   onColor="#191970"
                   offColor="#8d8dc9"
@@ -81,15 +81,16 @@ const SearchMedicineResult = ({ props }) => {
                 <div>
                   <button
                     className="medicine-save-btn"
-                    onClick={() => handleSave(index)}>
+                    onClick={() => handleSave(index)}
+                  >
                     추가하기
                   </button>
                 </div>
               </div>
             </div>
           ))
-        : ""}
-    </>
+        : ''}
+    </div>
   );
 };
 
