@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import "./UserProfile.css";
+import React, { useState } from 'react';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import './UserProfile.css';
 
 const UserProfile = () => {
-  const [user_name, setUser_name] = useState("");
+  const [user_name, setUser_name] = useState('haneul1219');
   return (
     <div>
       <div className="user-profile-container">

@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import "./UserBodyInfo.css";
+import React, { useEffect, useState } from 'react';
+import './UserBodyInfo.css';
 
 const UserBodyInfo = () => {
-  const [height, setHeight] = useState(""); // 3개다 값 설정 필요
-  const [age, setAge] = useState("");
-  const [weight, setWeight] = useState("");
+  const [height, setHeight] = useState(''); // 3개다 값 설정 필요
+  const [age, setAge] = useState('');
+  const [weight, setWeight] = useState('');
 
   const handleSubmit = () => {
     window.location.reload();

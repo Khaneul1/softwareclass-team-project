@@ -3,7 +3,7 @@ import './medicationList.css';
 
 const MedicationList = ({ medications }) => {
   return (
-    <div>
+    <div className="medicine-list-box">
       {medications.length > 0 ? (
         medications.map((med, index) => (
           <div key={index} className="medicine-list">
